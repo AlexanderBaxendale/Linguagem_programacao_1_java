@@ -5,11 +5,12 @@ public class Aluno {
     String nome;
 
     public void nome_aluno(){
+
         System.out.println(nome);
     }
     public void media(){
         total = (n1+n2+n3)/3;
-        System.out.println(total);
+
 
     }
 }

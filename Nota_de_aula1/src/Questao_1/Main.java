@@ -10,31 +10,39 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     Aluno al = new Aluno();
+    String x;
 
-    System.out.println("Digite o nome do Aluno:");
-    al.nome = sc.nextLine();
-    System.out.println("Digite a primeira nota: ");
-    al.n1 = sc.nextDouble();
-    System.out.println("Digite a Secunda nota:");
-    al.n2 = sc.nextDouble();
-    System.out.println("Digite a Terceira nota:");
-    al.n3 = sc.nextDouble();
-    System.out.println("Nome do aluno: ");
-    al.nome_aluno();
-    System.out.println("Média : ");
-    al.media();
+   do {
+       System.out.println("Digite o nome do Aluno:");
+       al.nome = sc.next();
+       System.out.println("Digite a primeira nota: ");
+       al.n1 = sc.nextDouble();
+       System.out.println("Digite a Secunda nota:");
+       al.n2 = sc.nextDouble();
+       System.out.println("Digite a Terceira nota:");
+       al.n3 = sc.nextDouble();
+       System.out.println("Nome do aluno: ");
+       al.nome_aluno();
+       System.out.println("Média : ");
+       al.media();
+
+
+       if(al.total >= 7){
+           System.out.println("O Aluno esta Aprovado!");
+       }else if(al.total > 4){
+           System.out.println("Aluno esta na Final");
+       }else{
+           System.out.println("O aluno esta Reprovado!");
+       }
+
+    System.out.println("Gostaria de adicionar outro aluno, Digite s");
+    x = sc.next();
+
+   }while (x.equalsIgnoreCase("s"));
 
 
 
 
-    if(al.total >= 7){
-        System.out.println("O Aluno esta Aprovado!");
-    }else if(al.total > 40 && al.total < 70){
-          System.out.println("Aluno esta na Final");
-    }else{
-         System.out.println("O aluno esta Reprovado!");
-    }
-        sc.close();
     }
 
 }

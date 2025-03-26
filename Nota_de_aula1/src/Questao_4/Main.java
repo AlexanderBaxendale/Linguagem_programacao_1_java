@@ -39,9 +39,9 @@ public class Main {
             banco.tirar();
             break;
         }
-        System.out.println("Caso queira ver outra operação, Digite S");
+        System.out.println("Caso queira ver outra operação, Digite s");
         r = sc.next();
-    }while(r.equalsIgnoreCase("S"));
+    }while(r.equalsIgnoreCase("s"));
 
 
 
