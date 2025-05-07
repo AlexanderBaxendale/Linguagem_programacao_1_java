@@ -1,11 +1,11 @@
-package Exemplo_pessoa;
+package aula03.src.Exemplo_pessoa_comHeranca;
 
-public class Pessoa {
+public class Pessoa1 {
     protected String nome;
     private String rg, email, cpf, telefone;
     protected int idade;
 
-    public Pessoa(String nome){
+    public Pessoa1(String nome){
         this.nome = nome;
     }
     public void aniversario(){

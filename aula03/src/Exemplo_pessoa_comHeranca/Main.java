@@ -1,4 +1,4 @@
-package Exemplo_pessoa;
+package aula03.src.Exemplo_pessoa_comHeranca;
 
 import java.util.Scanner;
 public class Main {
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Nome:"+a2.getNome());
         System.out.println("Matricula"+a2.getMatricula());
         System.out.println("nota 1: "+a2.getNota1());
-        System.out.println("nota 2")
+        System.out.println("nota 2");
 
         int x = sc.nextInt();
         System.out.println("Para Cadastra um Aluno, digite 1 | Caso queira Cadastra Professor digite 2 | Caso queira cadastra outra Pessoa digite 3");

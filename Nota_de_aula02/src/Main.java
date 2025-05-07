@@ -1,3 +1,5 @@
+package Nota_de_aula02.src;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {

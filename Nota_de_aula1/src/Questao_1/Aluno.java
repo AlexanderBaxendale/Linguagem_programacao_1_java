@@ -1,4 +1,4 @@
-package Questao_1;
+package Nota_de_aula1.src.Questao_1;
 
 public class Aluno {
     double n1,n2,n3,total;

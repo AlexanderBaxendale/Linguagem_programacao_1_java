@@ -1,6 +1,8 @@
+package aula_java_20_02_25.src;
+
 import java.util.Scanner;
-public class Main{
-    public static void main(String[]args) {
+public class Principal{
+    public static void principal(String[]args) {
 
         int x = 1;
         int repetir = 0;

@@ -1,4 +1,4 @@
-package Exemplo_pessoa;
+package aula03.src.Exemplo_pessoa;
 
 import java.util.Scanner;
 public class Main {

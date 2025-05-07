@@ -1,4 +1,4 @@
-package Exemplo_pessoa_metodos_de_acesso;
+package aula03.src.Exemplo_pessoa_metodos_de_acesso;
 
 public class Pessoa {
     private double peso;

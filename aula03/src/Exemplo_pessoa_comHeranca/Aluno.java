@@ -1,6 +1,6 @@
-package Exemplo_pessoa;
+package aula03.src.Exemplo_pessoa_comHeranca;
 
-public class Aluno extends Pessoa{
+public class Aluno extends Pessoa1 {
     private int matricula;
     private double nota1, nota2, nota3, media;
 

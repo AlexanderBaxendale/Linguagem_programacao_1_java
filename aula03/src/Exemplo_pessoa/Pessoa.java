@@ -1,4 +1,4 @@
-package Exemplo_pessoa;
+package aula03.src.Exemplo_pessoa;
 
 public class Pessoa {
     String nome;

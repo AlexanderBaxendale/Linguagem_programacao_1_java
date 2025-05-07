@@ -1,4 +1,4 @@
-package Questao_1;
+package Nota_de_aula1.src.Questao_1;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
